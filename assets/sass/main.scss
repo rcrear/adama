@@ -316,7 +316,7 @@
 			@include vendor('display', 'flex');
 
 			> :last-child {
-				border-right: solid $border #ffffff;
+				border-right: solid $border transparent;
 			}
 		}
 
@@ -327,7 +327,7 @@
 			@include vendor('flex-shrink', '0');
 			margin: ($border * 0.5);
 			height: 16em;
-			box-shadow: 0 0 0 $border #ffffff;
+			box-shadow: 0 0 0 $border transparent;
 
 			&.span-1 {
 				width: $width;

@@ -322,7 +322,7 @@ body.is-poptrox-visible #wrapper {
   display: flex;
 }
 #main .items > :last-child {
-  border-right: solid 10px #ffffff;
+  border-right: solid 10px transparent;
 }
 #main .item {
   -moz-flex-grow: 0;
@@ -335,7 +335,7 @@ body.is-poptrox-visible #wrapper {
   flex-shrink: 0;
   margin: 5px;
   height: 16em;
-  box-shadow: 0 0 0 10px #ffffff;
+  box-shadow: 0 0 0 10px transparent;
 }
 #main .item.span-1 {
   width: 20em;
