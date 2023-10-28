@@ -142,7 +142,7 @@
 		font-weight: 400;
 		padding: 0;
 		font-size: 13pt;
-		color: rgba(255, 255, 255, 0.6);
+		color: rgba(255, 255, 255);
 
 		@include breakpoint('<=xlarge') {
 			font-size: 11pt;
@@ -159,12 +159,12 @@
 
 	a {
 		color: #fff;
-		color: rgba(255, 255, 255, 0.85);
+		color: rgba(255, 255, 255);
 		text-decoration: none;
 		@include vendor('transition', 'color 0.25s ease-in-out');
 
 		&:hover {
-			color: #d64760;
+			color: rgba(255, 255, 255, 0.50);
 		}
 	}
 
@@ -176,7 +176,7 @@
 
 	strong, b {
 		color: #fff;
-		color: rgba(255, 255, 255, 0.85);
+		color: rgba(255, 255, 255);
 		font-weight: 600;
 	}
 
